@@ -1,9 +1,9 @@
-#angular-combobox — AngularJS directive for selecting items from tree.
+# angular-combobox — AngularJS directive for selecting items from tree.
 
 ## Dependences
 
-**[anular](http://angularjs.org)**
-**[bootstrap v3.3.7](http://getbootstrap.com/)**
+* **[angular](http://angularjs.org)**
+* **[bootstrap v3.3.7](http://getbootstrap.com/)**
 
 ## Options
 
