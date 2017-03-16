@@ -1,13 +1,13 @@
-# angular-combobox — AngularJS directive for selecting items from tree.
+# angular-combobox — AngularJS directive for selecting items.
 
-## Dependences
+## Dependencies
 
 * **[angular](http://angularjs.org)**
 * **[bootstrap v3.3.7](http://getbootstrap.com/)**
 
 ## Options
 
-* dataListFn(item, filterQuery, offset)	Implement this function. It used for getting data and should return data or promise
+* dataListFn(item, filterQuery, offset)	It used for getting data and should return data or promise
 
 Default values
 
