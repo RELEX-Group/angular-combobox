@@ -1,0 +1,759 @@
+{
+  "locations" : {
+    "root": {
+      "data": [
+        {
+          "key": 0,
+          "value": "Organization1",
+          "childrenCount": 3,
+          "type": 1
+        },
+        {
+          "key": 1,
+          "value": "Organization2",
+          "childrenCount": 3,
+          "type": 1
+        },
+        {
+          "key": 2,
+          "value": "Organization3",
+          "childrenCount": 5,
+          "type": 1
+        },
+        {
+          "key": 3,
+          "value": "Organization4",
+          "childrenCount": 4,
+          "type": 1
+        },
+        {
+          "key": 4,
+          "value": "Organization5",
+          "childrenCount": 0,
+          "type": 1
+        },
+        {
+          "key": 5,
+          "value": "Organization6",
+          "childrenCount": 3,
+          "type": 1
+        },
+        {
+          "key": 6,
+          "value": "Organization7",
+          "childrenCount": 6,
+          "type": 1
+        },
+        {
+          "key": 7,
+          "value": "Organization8",
+          "childrenCount": 1,
+          "type": 1
+        },
+        {
+          "key": 8,
+          "value": "Organization9",
+          "childrenCount": 12,
+          "type": 1
+        },
+        {
+          "key": 9,
+          "value": "Organization10",
+          "childrenCount": 0,
+          "type": 1
+        },
+        {
+          "key": 10,
+          "value": "Organization11",
+          "childrenCount": 0,
+          "type": 1
+        },
+        {
+          "key": 11,
+          "value": "Organization12",
+          "childrenCount": 0,
+          "type": 1
+        },
+        {
+          "key": 12,
+          "value": "Organization13",
+          "childrenCount": 0,
+          "type": 1
+        },
+        {
+          "key": 13,
+          "value": "Organization14",
+          "childrenCount": 0,
+          "type": 1
+        }
+      ],
+      "totalCount": 14
+    }
+  },
+  "facility": {
+    "0": {
+      "data": [
+        {
+          "key": 14,
+          "value": "Org1Fac1",
+          "childrenCount": 2,
+          "type": 2
+        },
+        {
+          "key": 15,
+          "value": "Org1Fac2",
+          "childrenCount": 3,
+          "type": 2
+        },
+        {
+          "key": 16,
+          "value": "Org1Fac3",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 3
+    },
+    "1": {
+      "data": [
+        {
+          "key": 17,
+          "value": "Org2Fac1",
+          "childrenCount": 1,
+          "type": 2
+        },
+        {
+          "key": 18,
+          "value": "Org2Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 19,
+          "value": "Org2Fac3",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 3
+    },
+    "2": {
+      "data": [
+        {
+          "key": 20,
+          "value": "Org3Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 21,
+          "value": "Org3Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 22,
+          "value": "Org3Fac3",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 23,
+          "value": "Org3Fac4",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 24,
+          "value": "Org3Fac5",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 5
+    },
+    "3": {
+      "data": [
+        {
+          "key": 25,
+          "value": "Org4Fac1",
+          "childrenCount": 3,
+          "type": 2
+        },
+        {
+          "key": 26,
+          "value": "Org4Fac2",
+          "childrenCount": 7,
+          "type": 2
+        },
+        {
+          "key": 27,
+          "value": "Org4Fac3",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 28,
+          "value": "Org4Fac4",
+          "childrenCount": 2,
+          "type": 2
+        }
+      ],
+      "totalCount": 4
+    },
+    "5": {
+      "data": [
+        {
+          "key": 29,
+          "value": "Org6Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 30,
+          "value": "Org6Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 31,
+          "value": "Org6Fac3",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 3
+    },
+    "6": {
+      "data": [
+        {
+          "key": 32,
+          "value": "Org7Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 33,
+          "value": "Org7Fac2",
+          "childrenCount": 3,
+          "type": 2
+        }
+      ],
+      "totalCount": 2
+    },
+    "7": {
+      "data": [
+        {
+          "key": 34,
+          "value": "Org8Fac1",
+          "childrenCount": 11,
+          "type": 2
+        }
+      ],
+      "totalCount": 1
+    },
+    "8": {
+      "data": [
+        {
+          "key": 35,
+          "value": "Org9Fac1",
+          "childrenCount": 2,
+          "type": 2
+        },
+        {
+          "key": 36,
+          "value": "Org9Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 37,
+          "value": "Org9Fac3",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 38,
+          "value": "Org9Fac4",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 38,
+          "value": "Org9Fac5",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 39,
+          "value": "Org9Fac6",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 40,
+          "value": "Org9Fac7",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 41,
+          "value": "Org9Fac8",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 42,
+          "value": "Org9Fac9",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 43,
+          "value": "Org9Fac10",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 44,
+          "value": "Org9Fac11",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 45,
+          "value": "Org9Fac12",
+          "childrenCount": 3,
+          "type": 2
+        }
+      ],
+      "totalCount": 12
+    },
+    "11": {
+      "data": [
+        {
+          "key": 46,
+          "value": "Org12Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 47,
+          "value": "Org12Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 48,
+          "value": "Org12Fac3",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 3
+    },
+    "12": {
+      "data": [
+        {
+          "key": 49,
+          "value": "Org13Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 50,
+          "value": "Org13Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 51,
+          "value": "Org13Fac3",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 3
+    },
+    "13": {
+      "data": [
+        {
+          "key": 52,
+          "value": "Org14Fac1",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 53,
+          "value": "Org14Fac2",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 54,
+          "value": "Org14Fac3",
+          "childrenCount": 0,
+          "type": 2
+        },
+        {
+          "key": 55,
+          "value": "Org14Fac4",
+          "childrenCount": 0,
+          "type": 2
+        }
+      ],
+      "totalCount": 4
+    }
+  },
+  "department": {
+    "14": {
+      "data": [
+        {
+          "key": 56,
+          "value": "Department1",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 57,
+          "value": "Department2",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 2
+    },
+    "15": {
+      "data": [
+        {
+          "key": 58,
+          "value": "Department3",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 57,
+          "value": "Department4",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 58,
+          "value": "Department5",
+          "childrenCount": 7,
+          "type": 3
+        }
+      ],
+      "totalCount": 3
+    },
+    "17": {
+      "data": [
+        {
+          "key": 59,
+          "value": "Department6",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 1
+    },
+    "25": {
+      "data": [
+        {
+          "key": 60,
+          "value": "Department7",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 61,
+          "value": "Department8",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 62,
+          "value": "Department9",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 3
+    },
+    "26": {
+      "data": [
+        {
+          "key": 63,
+          "value": "Department10",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 64,
+          "value": "Department11",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 65,
+          "value": "Department12",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 66,
+          "value": "Department13",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 67,
+          "value": "Department14",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 68,
+          "value": "Department15",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 69,
+          "value": "Department16",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 7
+    },
+    "28": {
+      "data": [
+        {
+          "key": 70,
+          "value": "Department17",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 71,
+          "value": "Department18",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 2
+    },
+    "29": {
+      "data": [
+        {
+          "key": 72,
+          "value": "Department19",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 1
+    },
+    "34": {
+      "data": [
+        {
+          "key": 73,
+          "value": "Department20",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 74,
+          "value": "Department21",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 75,
+          "value": "Department22",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 3
+    },
+    "35": {
+      "data": [
+        {
+          "key": 76,
+          "value": "Department23",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 77,
+          "value": "Department24",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 78,
+          "value": "Department25",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 79,
+          "value": "Department26",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 80,
+          "value": "Department27",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 81,
+          "value": "Department28",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 82,
+          "value": "Department29",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 83,
+          "value": "Department30",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 84,
+          "value": "Department31",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 85,
+          "value": "Department32",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 86,
+          "value": "Department33",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 11
+    },
+    "36": {
+      "data": [
+        {
+          "key": 87,
+          "value": "Department34",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 88,
+          "value": "Department35",
+          "childrenCount": 0,
+          "type": 3
+        }
+      ],
+      "totalCount": 2
+    },
+    "47": {
+      "data": [
+        {
+          "key": 89,
+          "value": "Department34",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 90,
+          "value": "Department35",
+          "childrenCount": 0,
+          "type": 3
+        },
+        {
+          "key": 91,
+          "value": "Department36",
+          "childrenCount": 2,
+          "type": 3
+        }
+      ],
+      "totalCount": 3
+    }
+  },
+  "sub-department": {
+    "58": {
+      "data": [
+        {
+          "key": 92,
+          "value": "SubDep1",
+          "childrenCount": 0,
+          "type": 4
+        },
+        {
+          "key": 93,
+          "value": "SubDep2",
+          "childrenCount": 0,
+          "type": 4
+        },
+        {
+          "key": 94,
+          "value": "SubDep3",
+          "childrenCount": 0,
+          "type": 7
+        },
+        {
+          "key": 95,
+          "value": "SubDep4",
+          "childrenCount": 0,
+          "type": 4
+        },
+        {
+          "key": 96,
+          "value": "SubDep5",
+          "childrenCount": 0,
+          "type": 4
+        },
+        {
+          "key": 97,
+          "value": "SubDep6",
+          "childrenCount": 0,
+          "type": 7
+        },
+        {
+          "key": 98,
+          "value": "SubDep7",
+          "childrenCount": 0,
+          "type": 4
+        }
+      ],
+      "totalCount": 7
+    },
+    "91": {
+      "data": [
+        {
+          "key": 99,
+          "value": "SubDep8",
+          "childrenCount": 0,
+          "type": 4
+        },
+        {
+          "key": 100,
+          "value": "SubDep9",
+          "childrenCount": 0,
+          "type": 4
+        }
+      ],
+      "totalCount": 2
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<div class="form-control input dropdown-input" ng-class="dropdownVisible ? 'focus' : ''">
+    <ul class="list-unstyled list-inline" ng-click="showHideDropdownList()">
+        <li class="list-inline-item selected-list" ng-repeat="item in selectedItems | limitTo : countSelectedLimit">
+            <span class="label" ng-class="::(getLabelClass(item))" ng-click="$event.stopPropagation();">{{item[fields.title]}} <span
+                    class="cursor-pointer combobox-button remove-btn" ng-click="removeItem($event, item)">&times;</span></span>
+        </li>
+        <li class="list-inline-item cursor-pointer combobox-button" ng-if="selectedItems.length == 0">
+            <input class="form-control input" type="text" placeholder="{{options.placeholder}}" disabled>
+
+            <div class="placeholder-wrapper combobox-button"></div>
+        </li>
+        <li class="list-inline-item controls cursor-pointer combobox-button m-r-0">
+            &nbsp;
+            <span class="text-muted vertical-align-middle" ng-show="selectedItems.length > 1" ng-click="clearSelection($event)"><b>&times;</b></span>
+            &nbsp;
+            <span class="vertical-align-middle glyphicon glyphicon-triangle-bottom text-muted"></span>
+        </li>
+        <li class="p-a-0 p-x-1 text-xs-center" ng-show="countSelectedLimit < selectedItems.length">
+            <small>
+                <a class="link" href="#" ng-click="loadMoreSelectedItems($event)">Show more</a>
+            </small>
+        </li>
+    </ul>
+</div>
+<div class="dropdown-wrapper">
+    <div class="form-control dropdown" ng-if="dropdownVisible">
+        <div class="p-x-1 m-t-1 search-box" ng-if="options.showSearchBox">
+            <input id="search-box" type="text" class="form-control form-control-sm" placeholder="Start typing to search"
+                   ng-model="filter.query" ng-model-options="{debounce: options.debounce }">
+            <span class="cursor-pointer times" ng-show="filter.query.length > 0" ng-click="clearFilter()"><b>&times;</b></span>
+        </div>
+        <div class="form-group p-x-1 p-t-1 header" ng-if="breadcrumbs.length > 0 && filter.query.length == 0">
+            <span class="cursor-pointer glyphicon glyphicon-menu-left text-muted" ng-click="goBack($event)"></span>
+            <span>{{breadcrumbs[breadcrumbs.length - 1][fields.title]}}</span>
+        </div>
+        <hr ng-if="options.showSearchBox"/>
+        <div class="list-group" ng-if="!isDataLoading()">
+            <div class="list-group-item p-a-0 cursor-pointer" ng-repeat="item in dropdownList | limitTo: countRecordsLimit"
+                 ng-hide="isSelected(item)">
+                <div class="row m-a-0">
+                    <div class="col-lg-10 p-l-1" ng-class="item[fields.childrenCount] > 0 ? 'col-lg-10' : 'col-lg-12 p-r-1'"
+                         ng-click="selectItem(item)">
+
+                        <span class="label label-pill level-label" ng-class="::(getLabelClass(item))"
+                              title="{{getLabelTitle(item)}}" ng-if="hasCategories">&nbsp;</span>
+                        <small ng-bind-html="escapeHtmlTags(item[fields.title]) | searchFilter:filter.query"></small>
+                    </div>
+                    <div class="col-lg-2 text-xs-right p-r-1" ng-if="::(item[fields.childrenCount] > 0 && filter.query.length == 0)"
+                         ng-click="openNextLevel(item, $event)">
+                        <span class="glyphicon glyphicon-menu-right text-muted"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="p-t-1 p-x-1 text-xs-center" ng-if="countRecordsLimit < currentInternalModelItem.totalCount">
+                <small>
+                    <a class="link" href="#" ng-click="loadMoreDropdownItems()">Show more</a>
+                </small>
+            </div>
+            <div class="p-a-1 text-xs-center" ng-if="isEmpty() && !isDataLoading()">
+                <small class="text-muted">The list is empty or all items are selected</small>
+            </div>
+            <div class="list-group-item"></div>
+        </div>
+        <div class="spinner2 p-a-1 text-xs-center" ng-if="isDataLoading()"></div>
+    </div>
+</div>

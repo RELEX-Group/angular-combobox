@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="ng-combo">
+<head>
+    <meta charset="utf-8">
+    <title>My AngularJS App</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="../angular-combobox/angularCombobox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-sanitize.min.js"></script>
+    <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body>
+
+<script src="app.js"></script>
+<script type="text/javascript" src="../angular-combobox/angularCombobox.js"></script>
+<script type="text/javascript" src="ComboboxUsageCtrl.js"></script>
+
+<div class="row">
+    <div class="col-lg-12" ng-controller="ComboboxUsageCtrl">
+        <div class="form-group combobox-div">
+            <angular-combobox id="combo1" options="comboboxOptions" ng-model="selectedElements"
+                              ng-model-options='{debounce: 1000}'></angular-combobox>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
